@@ -95,6 +95,88 @@ body {
     background-color:white;
 }
 /* new listing */
+body{   
+ font-style: italic;
+ display: flex;
+ flex-direction: column;
+ min-height:100v;
+}
+.container{
+   flex:1;
+}
+
+.navbar{
+    height:5rem;
+    background-color:white;
+}
+.logo{
+    color: red;
+    font-size:2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+footer {
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* card */
+.card{
+    border:none  !important;
+    margin-bottom:2rem;
+}
+.card-img-top{
+    border-radius:2rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding:0 !important;
+}
+.card-text{
+    font-weight:400;
+}
+.listing-link{
+    text-decoration: none;
+}
+/* card over lay */
+.card-img-overlay{
+    opacity:0;
+}
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color:white;
+}
  /* new listing */
  .add-btn{
     background-color: rgb(89, 204, 89) !important;
@@ -150,5 +232,4 @@ body {
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-
 

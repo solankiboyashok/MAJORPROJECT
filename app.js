@@ -84,6 +84,7 @@ app.delete("/listing/:id",async(req,res)=>{
 
 })
 
+
 app.listen(4000,()=>{
-    console.log(`Sever is running port:4000`);
+    console.log(`Server is running port:4000`);
 });
